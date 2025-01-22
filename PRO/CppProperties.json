@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "gcc"
+      ],
+      "name": "gcc",
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ]
+}

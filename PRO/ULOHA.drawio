@@ -1,0 +1,125 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="5SFcN4r_H3j4JOM_su7u">
+    <mxGraphModel dx="2440" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-1" target="PGEJsuWQ0etv_jsijHHd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Bangers&quot; face=&quot;Bangers&quot; style=&quot;font-size: 48px;&quot;&gt;Štart&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="60" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-2" target="PGEJsuWQ0etv_jsijHHd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Bangers&quot; face=&quot;Bangers&quot;&gt;VSTUP&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;yG8atlSD2870rcpMXvWn&quot; style=&quot;font-size: 18px;&quot;&gt;X&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-3" target="PGEJsuWQ0etv_jsijHHd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-3" target="PGEJsuWQ0etv_jsijHHd-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-3" value="&lt;font style=&quot;font-size: 48px;&quot; face=&quot;Bangers&quot;&gt;X &amp;lt; 90&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="560" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-6" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;KONIEC&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Bangers;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBangers;" vertex="1" parent="1">
+          <mxGeometry x="530" y="930" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-12" target="PGEJsuWQ0etv_jsijHHd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-12" target="PGEJsuWQ0etv_jsijHHd-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-12" value="&lt;font style=&quot;font-size: 48px;&quot; face=&quot;Bangers&quot;&gt;X = 90&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-22" target="PGEJsuWQ0etv_jsijHHd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-22" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;VYSTUP&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&quot;PRAVY&quot;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Bangers;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBangers;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-23" target="PGEJsuWQ0etv_jsijHHd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-23" target="PGEJsuWQ0etv_jsijHHd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-23" value="&lt;font style=&quot;font-size: 48px;&quot; face=&quot;Bangers&quot;&gt;X &amp;gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2048px%3B%26quot%3B%20face%3D%26quot%3BBangers%26quot%3B%26gt%3BX%20%26amp%3Blt%3B%2090%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22640%22%20y%3D%22470%22%20width%3D%22190%22%20height%3D%22170%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font style=&quot;font-size: 48px;&quot; face=&quot;Bangers&quot;&gt;&amp;nbsp;90&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="670" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-24" target="PGEJsuWQ0etv_jsijHHd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-24" target="PGEJsuWQ0etv_jsijHHd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-24" value="&lt;font style=&quot;font-size: 48px;&quot; face=&quot;Bangers&quot;&gt;X = 180&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2048px%3B%26quot%3B%20face%3D%26quot%3BBangers%26quot%3B%26gt%3BX%20%26amp%3Blt%3B%2090%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22640%22%20y%3D%22470%22%20width%3D%22190%22%20height%3D%22170%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="450" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-25" target="PGEJsuWQ0etv_jsijHHd-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="946" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-25" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;VYSTUP&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&quot;PRiamy&quot;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Bangers;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBangers;" vertex="1" parent="1">
+          <mxGeometry x="450" y="608" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-26" target="PGEJsuWQ0etv_jsijHHd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-26" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;VYSTUP&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&quot;TUPY&quot;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Bangers;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBangers;" vertex="1" parent="1">
+          <mxGeometry x="700" y="730" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-27" target="PGEJsuWQ0etv_jsijHHd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-27" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;VYSTUP&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&quot;OSTRY&quot;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Bangers;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBangers;" vertex="1" parent="1">
+          <mxGeometry x="960" y="810" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGEJsuWQ0etv_jsijHHd-28" target="PGEJsuWQ0etv_jsijHHd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-28" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;VYSTUP&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&quot;CHYBA&quot;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Bangers;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBangers;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="870" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-44" value="ANO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="388" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-45" value="NIE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="388" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-46" value="ANO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="498" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-47" value="NIE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="488" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-48" value="VACSIE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="795" y="598" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-49" value="MENSIE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="608" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-50" value="MENSIE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="718" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-51" value="CHYBA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="718" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-52" value="&lt;font face=&quot;Bangers&quot; style=&quot;font-size: 100px;&quot;&gt;(C)&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: Bangers; font-size: 100px;&quot;&gt;2024&lt;/span&gt;&lt;font face=&quot;Bangers&quot; style=&quot;font-size: 100px;&quot;&gt;&amp;nbsp;ADRIAN SIMONIDES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="50" width="970" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEJsuWQ0etv_jsijHHd-53" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;adriansimo2008.great-site.net&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="270" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

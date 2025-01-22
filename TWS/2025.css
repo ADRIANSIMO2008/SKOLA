@@ -1,0 +1,7 @@
+body{background-color: aqua;background-image: url(images/ADRIANSIMO.png); background-repeat: repeat-y;background-position: right;background-size: 150px 150px;}
+h2{color: red;text-align: center;}
+ul{list-style: square;}
+ol{list-style: upper-alpha;}
+dt{color: red;font-weight: bold;}
+dd{color: blue;font-style: italic;}
+ul ul {list-style-image: url(Nepomenovaný.png);}

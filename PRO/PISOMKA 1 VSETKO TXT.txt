@@ -1,0 +1,127 @@
+//########################################################PRVY#########################################################################
+
+#include <stdio.h>
+int main()
+{
+    int pocet1, pocet2, pocet3, peto, mar;
+
+    //VSTUP
+
+    printf ("ZADAJTE POCET GULOCOK (ZADAJTE CISLA TAKTO: 5 7 10):");
+    scanf ("%d %d %d", &pocet1, &pocet2, &pocet3);
+
+    //VYPOCET
+
+    mar = pocet1 + pocet2;
+    peto = pocet1 + pocet1+ pocet2 + pocet3;
+
+    //VYSTUP
+
+    printf (" Jurko ma %d gulocok.\n",pocet1);
+    printf (" Marienka ma %d gulocok.\n",mar);
+    printf (" Peto ma %d gulocok.\n",peto);
+    return 0;
+    }
+
+//#############################################################DRUHY#########################################################################
+
+#include <stdio.h>
+int main()
+    {
+        int HOD,pre,doz;
+
+        //VSTUP
+
+        printf ("ZADAJTE PORADOVE CISLO PISMENA: ");
+        scanf ("%d", &HOD);
+        printf ("ZADAJTE HODNOTU O KTORU SA MA CISLO POSUNUT DOPREDU: ");
+        scanf ("%d", &pre);
+        printf ("ZADAJTE HODNOTU O KTORU SA MA CISLO POSUNUT DOZADU: ");
+        scanf ("%d", &doz);
+
+        //VYSTUP
+
+        printf ("ZADANE PORADOVE CISLO: %d \n", HOD);
+        printf ("ZNAK S TYMTO CISLOM JE: %c \n", HOD);
+        printf ("ZNAK POSUNUTY O %d DOPREDU JE: %c \n",pre ,HOD+pre);
+        printf ("ZNAK POSUNUTY O %d DOZADU JE: %c \n",doz ,HOD-doz);
+        return 0;
+    }
+
+//##############################################################TRETI################################################################################
+
+#include <stdio.h>
+int main()
+{
+    float num,km;
+    int  mm,cm,dm;
+
+    //VSTUP
+
+    printf ("ZADAJTE CISLO V METROCH: ");
+    scanf ("%f", &num);
+
+    //VYPOCET
+
+    km = num / 1000;
+    cm = num * 100;
+
+    //VYSTUP
+
+    printf ("ZADALI STE HODNOTU: %d \n",num);
+    printf ("TATO HODNOTA JE V CM: %d \n", cm);
+    printf ("TATO HODNOTA JE V KM: %.3f \n", km);
+
+    return 0;
+    }
+
+//########################################################################STVRTY###########################################################################
+
+#include <stdio.h>
+
+int main()
+{
+    int vys,vys1,o,d,d1;
+
+    //VSTUP
+    printf ("ZADAJ SIRKU A DLZKU IHRISKA: ");
+    scanf ("%d %d", &d,&d1);
+    printf ("ZADAJ POCET OBEHNUTI: ");
+    scanf ("%d", &o);
+
+    //VYPOCET
+    vys = 2 * d + 2 * d1;
+    vys1 = vys * o;
+
+    //VYSTUP
+    printf ("JEDNO KOLO OKOLO IHRISKA JE %d METRE \n",vys);
+    printf ("PO %d KOLACH UBEHNES %d METRE",o,vys1);
+    return 0;
+    }
+
+//#############################################################PIATY###################################################################
+
+#include <stdio.h>
+
+int main()
+{
+    float NOVACENA,EUR,PERCENTO;
+
+    //VSTUP
+
+    printf ("ZADAJTE SUMU V EUR: ");
+    scanf ("%f", &EUR);
+    printf ("ZADAJTE PERCENTO ZLAVY: ");
+    scanf ("%f", &PERCENTO);
+
+    //VYPOCET
+
+    NOVACENA = EUR - EUR * PERCENTO / 100;
+
+    //VYSTUP
+
+    printf ("NOVA CENA JE %.2f EUR",NOVACENA);
+    return 0;
+    }
+
+//##############################################################KONEC######################################################################

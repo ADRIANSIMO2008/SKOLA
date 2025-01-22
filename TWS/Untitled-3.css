@@ -1,0 +1,6 @@
+body {background-color: crimson;}
+ul {list-style-image: url(Nepomenovaný2.png);}
+ul ul {list-style: disc;}
+ul ul ul {list-style: circle;}
+dt {color: aqua; font-weight: bolder;}
+dd {font-style: italic;}
