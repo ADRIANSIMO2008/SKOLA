@@ -27,6 +27,7 @@ int main()
         }
         break;
     case 'D':
+    
         printf("ZADAJTE VYSKU: ");
         scanf ("%d", &vstup);
         if (vstup <= 160 && vstup > 0)
