@@ -14,14 +14,14 @@ int main()
     {
         if (a > b)
         {
-            for (a = a; a >= b; a-=1)
+            for (a = a; a >= b; a-=vstp)
         {
             printf("%d \n", a);
         }
         }
         else
         {
-            for (a = a; a <= b; a+=1)
+            for (a = a; a <= b; a+=vstp)
         {
             printf("%d \n", a);
         }
