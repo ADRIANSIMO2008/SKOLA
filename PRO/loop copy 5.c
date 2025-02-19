@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int vstup,vstp,a,b;
+    int vstup,vstp,a,b,c;
     printf("ZADAJTE MAX CISLO: \n");
     scanf ("%d", &b);
-    printf("ZADAJTE CISLO O KTORE SA BUDE ZVYSOVAT: \n");
-    scanf ("%d", &vstp);
+    printf("ZADAJTE MIN CISLO: \n");
+    scanf ("%d", &a);
     printf("========================================================================== \n");
-    for (a = vstp; a <= b; a+=vstp)
+
+    for (a = vstp; b > a; a+=1)
     {
         printf("%d \n", a);
     }
