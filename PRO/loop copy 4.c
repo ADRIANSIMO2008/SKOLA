@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
     int vstup,vstp,a,b,c,d,e,f;
@@ -7,10 +8,12 @@ int main()
 
     //VSTUP
 
-    printf("ZADAJTE MIN CISLO: \n");
-    scanf ("%d", &b);
-    printf("ZADAJTE CISLO O KTORE SA BUDE ZMENSOVAT: \n");
-    scanf ("%d", &vstp);
+    //printf("ZADAJTE MIN CISLO: \n");
+    //scanf ("%d", &b);
+    b = 1;
+    //printf("ZADAJTE CISLO O KTORE SA BUDE ZMENSOVAT: \n");
+    //scanf ("%d", &vstp);
+    vstp = 1;
     printf("ZADAJTE POCIATOCNE CISLO: \n");
     scanf ("%d", &a);
     printf("ZADAJTE CISLO KOTORYM SA BUDE NASOBIT: \n");
@@ -19,7 +22,7 @@ int main()
 
     //LOOP
 
-    for (a = a; a >= b; a-=vstp)
+    for (; a >= b; a -= vstp)
     {
         printf("(%d) Zadaj cislo: \n", a);
         scanf ("%d", &c);
@@ -41,6 +44,12 @@ int main()
 
     printf("PARNYCH CISIEL JE %d\n", e);
     printf("NEPARNYCH CISIEL JE %d\n", f);
+
+    //END
+
+    printf("Press Enter to continue...");
+    getchar();
+    getchar(); // To consume the newline character left by previous scanf
 
     return 0;
 }

@@ -11,5 +11,10 @@ int main()
     {
         printf("%d \n", a);
     }
+
+    printf("Press Enter to continue...");
+    getchar();
+    getchar(); 
+
     return 0;
 }
