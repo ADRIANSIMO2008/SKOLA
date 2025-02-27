@@ -17,8 +17,6 @@ int main()
     vstp = 1;
     printf("ZADAJTE POCET CISLO: \n");
     scanf ("%d", &a);
-    printf("ZADAJTE CISLO KOTORYM SA BUDE NASOBIT: \n");
-    scanf ("%d", &vstup);
     printf("========================================================================== \n");
 
     //LOOP
@@ -27,38 +25,19 @@ int main()
     {
         printf("(%d) Zadaj cislo: \n", a);
         scanf ("%d", &c);
-        printf("%d \n", c*vstup);
-        d = c % 2;
-        if (c == 0)
-        {
-            printf("JE TO PARNE CISLO\n");
-            g = g + 1;
-        }
-    
-        if (d == 0)
-        {
-            printf("JE TO PARNE CISLO\n");
-            e = e + 1;
-        }
-        if (d != 0)
-        {
-            printf("JE TO NEPARNE CISLO\n");
-            f = f + 1;
-        }
+        e = e + c;
     }
 
     //FINAL VYSTUP
 
-    printf("PARNYCH CISIEL JE %d\n", e);
-    printf("NEPARNYCH CISIEL JE %d\n", f);
-    printf("NUL JE %d\n", g);
+    printf("VySLEDok %d\n", e);
     printf("========================================================================== \n");
 
     //END
 
     printf("Press Enter to continue...");
     getchar();
-    getchar(); // To consume the newline character left by previous scanf
+    getchar();
 
     return 0;
 }
