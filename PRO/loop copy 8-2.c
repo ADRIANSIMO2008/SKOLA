@@ -2,13 +2,19 @@
 #include <stdlib.h>
 int main()
 {
-    int vstup,vstp,a,b,c,d,max,min;
+    int vstup,vstp,a,b,c,d,x,y,z,xy,vy;
     float f,e,g;
     e = 0;
     f = 0;
     g = 0;
-    max = 0;
-    min = 99999;
+    x = 0;
+    y = 0;
+    z = 0;
+    xy = 0;
+    vy = 0;
+    
+    //max = 0;
+   // min = 99999;
 
     //VSTUP
 
@@ -25,22 +31,36 @@ int main()
     //LOOP
 
     for (; a >= b; a -= vstp)
-    {
-        printf("(%d) Zadaj vysku: \n", a);
+    {   
+        CHYBA:
+        printf("(%d) ZADAJT ZNAMKU: \n", a);
         scanf ("%d", &c);
-        if (c > max)
+        if (c == 1)
         {
-            max = c;
+            x = x + 1;
         }
-        if (c < min)
+        else if (c == 2)
         {
-            min = c;
+            y = y + 1;
         }
-        if (c > 170)
+        else if (c == 3)
         {
-            d = d + 1;
+            z = z + 1;
         }
-        
+        else if (c == 4)
+        {
+            xy = xy + 1;
+        }
+        else if (c == 5)
+        {
+            vy = vy + 1;
+        }
+        else
+        {
+            printf("Neplatna znamka! Zadajte cislo medzi 1 a 5.\n");
+            goto CHYBA;
+        }
+
         e = e + c;
         g = g + 1;
     }
@@ -48,10 +68,12 @@ int main()
     //FINAL VYSTUP
 
     f = e / g;
-    printf("Priemerna vyska: %.2f\n", f);
-    printf("Najvysia vyska: %d\n", max);
-    printf("Najnizsia vyska: %d\n", min);
-    printf("Pocet ziakov vyssich ako 170cm: %d\n", d);
+    printf("Priemerna znamka: %.2f\n", f);
+    printf("Znamka 1: %d\n", x);
+    printf("Znamka 2: %d\n", y);
+    printf("Znamka 3: %d\n", z);
+    printf("Znamka 4: %d\n", xy);
+    printf("Znamka 5: %d\n", vy);
     printf("========================================================================== \n");
 
     //END
