@@ -5,7 +5,7 @@
 int main()
 {
     int zak, exp;
-    long long vys = 1;
+    long long int vys = 1;
 
     // VSTUP
     printf("ZADAJTE ZAKLADNE CISLO: \n");
