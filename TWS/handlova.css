@@ -1,3 +1,8 @@
 img {float: right; border: 5px solid #000; margin: 5px;}
 p {text-align: justify;}
 h2 {color: #f00;text-align: center;}
+a {text-align: center;background-color: #000;width: 150px;margin: 15px;padding: 15px;border: #f00 solid 5px;text-decoration: none;}
+a:visited {color: rgb(0, 68, 16);}
+a:link {color: rgb(0, 255, 60);}
+a:hover {background-color: #f00;color: #000;}
+a:active {background-color: #000;color: #f00;}
