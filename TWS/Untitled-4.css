@@ -1,7 +1,6 @@
-body {background-color: lightblue; font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1 {color: orange; text-align: center;}
-ul {list-style: circle;}
-ul ol {list-style: lower-alpha;}
-ul ol ul {list-style: url(Nepomenovaný2.png);}
-dt {color: green; font-weight: bold;}
-dd {font-style: italic;}
+body {background-color: rgb(243, 243, 135); font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p {text-align: justify;}
+h1 {color: blue; text-align: center;}
+h3 {color: green; text-align: left;}
+ul {list-style: upper-roman;}
+img {float: right; border: 5px solid #ff9900; margin-left: 10px;}
