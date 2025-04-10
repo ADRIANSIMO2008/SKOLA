@@ -1,0 +1,32 @@
+.modry {background-color: aqua;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Canada, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    float: left;}
+#red {background-color: rgb(255, 0, 0);
+        width: 500px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Canada, sans-serif;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        border-radius: 5px;
+        float: left;}
