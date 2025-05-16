@@ -1,0 +1,40 @@
+div {
+    background-color: lightgray;
+
+}
+@media screen and (min-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    div {
+        margin: 1%;
+        width: 23%;
+        height: 200px;
+        float: left;
+    }
+    
+}
+@media screen and (max-width: 899px) {
+    body {
+        background-color: lightgreen;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    div {
+        margin: 1%;
+        width: 48%;
+        height: 200px;
+        float: left;
+    }
+    
+}

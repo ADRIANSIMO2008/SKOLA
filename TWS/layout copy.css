@@ -1,0 +1,32 @@
+#kontajner{width: 960px; background-color: #fff;margin:0 auto;}
+header{width: 960px; height: 200px; background-color: #f00; background-image: url(images/nice.png); font-size: xx-large; color: #fff; text-align: center; line-height: 150px;}
+nav{width: 960px; height: 70px; background-color: #999;}
+section{width: 960px; background-color: #ccc;}
+footer{width: 960px; height: 50px; background-color: hwb(221 26% 50%);}
+body{background-color: #000;text-align: center;}
+nav a {display: block;float: left;background-color: #000;width: 240px;line-height: 70px;text-decoration: none;}
+nav a:visited {color: rgb(0, 68, 16);}
+nav a:link {color: rgb(0, 255, 60);}
+nav a:hover {background-color: #f00;color: #000;}
+nav a:active {background-color: #000;color: #f00;}
+.diamond-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-image:  linear-gradient(rgba(0, 0, 255, 0), rgba(255, 255, 0, 0)), url("images/ADRIANSIMO.png");
+    background-size: 160px 160px; 
+    background-position: 0 0, 0px 0px;
+    animation: marquee 5s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      background-position: 0 160px, 80px 240px;
+    }
+    100% {
+      background-position: 160px 0px, 240px 80px;
+    }
+  }

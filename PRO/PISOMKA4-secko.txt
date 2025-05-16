@@ -1,0 +1,123 @@
+======================================================PISOMKA4-1.c===========================================================================
+
+#include <stdio.h>
+
+int main()
+{
+    int znamka, sucet = 0, pocet = 0, max = 0, min = 999;
+    float priemer;
+
+    printf("ZADAJTE ZNAMKY ROZHODCOV (ZADANIE UKONCITE HODNOTOU 0):\n");
+
+    do
+    {
+        printf("ZADAJTE ZNAMKU: ");
+        scanf("%d", &znamka);
+
+        if (znamka > 0 && znamka <= 5) // Kontrola, že známka je kladná
+        {
+            sucet += znamka; // Pridá známku k súčtu
+            pocet++;         // Zvýši počet zadaných známok
+
+            if (znamka > max) // Aktualizácia najlepšej známky
+            {
+                max = znamka;
+            }
+            if (znamka < min) // Aktualizácia najhoršej známky
+            {
+                min = znamka;
+            }
+        }
+        else if (znamka < 0) // Kontrola neplatnej známky
+        {
+            printf("NEPLATNA ZNAMKA! ZNAMKY MUSIA BYT KLADNE.\n");
+        }
+        else if (znamka > 5) // Kontrola neplatnej známky
+        {
+            printf("NEPLATNA ZNAMKA! ZNAMKY MUSIA BYT MAXIMALNE 5.\n");
+        }
+
+    } while (znamka != 0); // Pokračuje, kým nie je zadaná hodnota 0
+
+    // Výpočet aritmetického priemeru po vynechaní najlepšej a najhoršej známky
+    if (pocet > 2) // Musia byť aspoň 3 známky na vynechanie max a min
+    {
+        sucet -= max; // Odstráni najlepšiu známku
+        sucet -= min; // Odstráni najhoršiu známku
+        priemer = (float)sucet / (pocet - 2); // Vypočíta priemer zo zvyšných známok
+        printf("VYPOCITANA ZNAMKA PODLA PRAVIDIEL JE: %.2f\n", priemer);
+    }
+    else
+    {
+        printf("NEDOSTATOCNY POCET ZNAMOK NA VYPOCET.\n");
+    }
+
+    return 0;
+}
+
+==========================================================PISOMKA4-2.c==================================================================================
+#include <stdio.h>
+
+int main()
+{
+    int plat, pocetZamestnancov = 0, pocetVyssichPlatov = 0;
+    int platRiaditela = 0, sucetPlatov = 0;
+    float priemernyPlat;
+
+    printf("ZADAJTE PLATY ZAMESTNANCOV (POSLEDNY PLAT MUSI BYT RIADITELA, KTORÝ PRESIAHNE 4000 €):\n");
+
+    do
+    {
+        printf("ZADAJTE PLAT ZAMESTNANCA: ");
+        scanf("%d", &plat);
+
+        pocetZamestnancov++; // Zvýši počet zamestnancov
+        sucetPlatov += plat; // Pridá plat k súčtu
+
+        if (plat > 1800)
+        {
+            pocetVyssichPlatov++; // Zvýši počet zamestnancov s platom vyšším ako 1800 €
+        }
+
+        if (plat > 4000)
+        {
+            platRiaditela = plat; // Uloží plat riaditeľa
+        }
+
+    } while (plat <= 4000); // Pokračuje, kým plat nepresiahne 4000 €
+
+    // Výpočet priemerného platu
+    priemernyPlat = (float)sucetPlatov / pocetZamestnancov;
+
+    // Výstup
+    printf("==========================================================================\n");
+    printf("POCET ZAMESTNANCOV (VRATANE RIADITELA): %d\n", pocetZamestnancov);
+    printf("POCET ZAMESTNANCOV S PLATOM VYSSIM AKO 1800 €: %d\n", pocetVyssichPlatov);
+    printf("PRIEMERNY PLAT: %.2f €\n", priemernyPlat);
+    printf("PLAT RIADITELA JE O %.2f € VYSSI AKO PRIEMERNY PLAT.\n", platRiaditela - priemernyPlat);
+    printf("==========================================================================\n");
+
+    printf("Press Enter to continue...");
+    getchar();
+    getchar(); 
+    return 0;
+}
+
+=========================================================PISOMKA4-3.c======================================================================================
+#include <stdio.h>
+
+int main()
+{
+    float cislo = 10.1;
+
+    do {
+        cislo -= 0.1;
+        printf("cislo = %.1f\n", cislo);
+    } while (cislo >= 0);
+
+    printf("PROGRAM SKONCIL.\n");
+
+    printf("Press Enter to continue...");
+    getchar();
+    return 0;
+}
